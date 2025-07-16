@@ -10,7 +10,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-   background-color:#F2EDED;
+   background-color:#F5F8FF;
 }
 
 .primary-text {
@@ -37,7 +37,14 @@ body {
      font-weight: bold;
      font-size: 16px;
      cursor: pointer;
+     transition: ease-in .2s;
 
+}
+
+.btn:hover {
+    background-color: #993B66;
+    
+    
 }
 
 #header {
@@ -281,6 +288,10 @@ label {
 input::placeholder,
 textarea::placeholder {
     font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4E47FF;
 }
 
 /* footer */
