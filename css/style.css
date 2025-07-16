@@ -10,7 +10,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color:#F2EDED;
 }
 
 .primary-text {
@@ -164,7 +164,6 @@ margin: 116px auto;
    padding: 24px;
    background-color: #ffffff;
    border-radius: 14px;
-   box-shadow: 5px 5px 5px #F2EDED;
    text-align: left;
 }
 
@@ -207,4 +206,108 @@ margin-bottom: 8px;
     font-size: 16px;
     line-height: 140%;
     color: #B3B3B3;
+}
+
+/* focus section start */
+
+#focus {
+    max-width: 1140px;
+    margin: 0 auto 92px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 45px 150px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    
+}
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #000000;
+}
+
+#focus p{
+color: #00000050;
+font-size: 16px;
+line-height: 140%;
+}
+
+
+
+#focus img {
+    border-radius: 48px;
+}
+/* from section style */
+#from-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 71px 0;
+}
+
+.from-title {
+    font-size: 97px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #000000;
+}
+.from-area {
+    width: 50%;
+}
+label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.from-area label,
+.from-area input,
+.from-area textarea {
+    display: block;
+    width: 100%;
+}
+
+.from-area input,
+.from-area textarea{
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 20px;
+}
+
+/* footer */
+.footer-area {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 104px;
+}
+
+.footer-title {
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+
+.footer-area p {
+    line-height: 150%;
+    color: #8987A1;
+}
+
+.footer-links  {
+    margin-top: 20px;
+}
+.footer-links a {
+    display: inline-block;
+    margin-right: 48px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #8987A1;
 }
