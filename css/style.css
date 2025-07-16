@@ -290,10 +290,6 @@ textarea::placeholder {
     font-size: 20px;
 }
 
-input[type="submit"]:hover {
-    background-color: #4E47FF;
-}
-
 /* footer */
 .footer-area {
     text-align: center;
