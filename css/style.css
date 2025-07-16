@@ -10,6 +10,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+   background-color: rgba(255, 255, 255, 0.5);
 }
 
 .primary-text {
@@ -137,4 +138,73 @@ margin: 116px auto;
 .productive-content p {
     font-size: 20px;
     color: #00000050;
+}
+
+/* user comment */
+#user-comment {
+    max-width: 1140px;
+    margin: 0 auto 132px auto;
+    text-align: center;
+}
+.user-title {
+    font-size: 42px;
+    font-weight: bold;
+    color:#252432;
+    margin-bottom: 50px;
+}
+
+.user-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.user-cards  .card {
+   padding: 24px;
+   background-color: #ffffff;
+   border-radius: 14px;
+   box-shadow: 5px 5px 5px #F2EDED;
+   text-align: left;
+}
+
+.card img {
+    margin-bottom: 24px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.card h2 {
+font-size: 24px;
+line-height: 120%;
+letter-spacing: -2%;
+margin-bottom: 8px;
+}
+.card p {
+    font-size: 16px;
+    line-height: 140%;
+    color: #1E1E1E;
+    margin-bottom: 24px;
+}
+
+.user-ditals {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.user-ditals img {
+    border-radius: 50%;
+}
+.user-ditals h6 {
+    font-weight: 600;
+    color: #757575;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 2px;
+}
+
+.user-ditals  p {
+    font-size: 16px;
+    line-height: 140%;
+    color: #B3B3B3;
 }
